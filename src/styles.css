@@ -1,1 +1,54 @@
-/* You can add global styles to this file, and also import other style files */
+
+.headline{
+font-size: 50px;
+margin: 100px 0;
+}
+
+.header-container{
+  height:250px;
+  color:white;
+  background-color: #ff7979;
+}
+
+.dash-btns{
+  width:100%;
+  font-size: 25px;
+  color:white;
+  padding:15px;
+  border-radius: 4px;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin: 0 5px;
+}
+
+.nav-section{
+  padding:40px 0;
+  background-color: #f1f2f6;
+}
+
+.saiyans{
+  background-color: #686de0;
+}
+
+.nameks{
+  background-color: #6ab04c;
+}
+
+.humans{
+  background-color: #f0932b;
+}
+
+.footer{
+  padding-top: 15px;
+  background-color:#2f3542;
+  height:50px;
+  color:white
+}
+
+.character-img{
+  height: 300px;
+}
+
+.padding{
+  margin-top: 20px;
+}

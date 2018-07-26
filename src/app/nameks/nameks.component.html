@@ -1,0 +1,25 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-8 col-md-offset-2">
+      <h2 class="text-center">Namekean? Characters</h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="container-fluid">
+      <div class="col-md-8 col-md-offset-2 padding" *ngFor="let nameks of namek">
+        <div class="col-md-6">
+          <span class="badge">{{nameks.id}}</span>
+          <img src="{{nameks.image}}" alt="{{nameks.name}}" class="img-responsive character-img">
+        </div>
+        <div class="col-md-6 padding">
+          <h2 class="text-center">Name: {{nameks.name}}</h2>
+          <h2 class="text-center">Race: {{nameks.race}}</h2>
+          <h2 class="text-center">Power Level: {{nameks.powerLevel}}</h2>
+
+        </div>
+
+      </div>
+      </div>
+    </div>
+
+</div>

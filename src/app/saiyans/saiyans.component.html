@@ -1,0 +1,25 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-8 col-md-offset-2">
+      <h2 class="text-center">Saiyan Characters</h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="container-fluid">
+      <div class="col-md-8 col-md-offset-2 padding" *ngFor="let saiyans of saiyan">
+        <div class="col-md-6">
+          <span class="badge">{{saiyans.id}}</span>
+          <img src="{{saiyans.image}}" alt="{{saiyans.name}}" class="img-responsive character-img">
+        </div>
+        <div class="col-md-6 padding">
+          <h2 class="text-center">Name: {{saiyans.name}}</h2>
+          <h2 class="text-center">Race: {{saiyans.race}}</h2>
+          <h2 class="text-center">Power Level: {{saiyans.powerLevel}}</h2>
+
+        </div>
+
+      </div>
+      </div>
+    </div>
+
+</div>
